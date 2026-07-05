@@ -13,6 +13,7 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
 
 /* Nav styles */
@@ -121,4 +122,51 @@ nav ul li a {
 }
 .btn-container {
     margin-top: 40px;
+}
+
+
+/* main */
+
+.main {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* About me */
+
+.about-me {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+    border-radius: 20px;
+}
+.about-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.about-description {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 0px;
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-container-title {
+    color: #757575;
+    margin-bottom: 0px;
+}
+.about-container-subtitle {
+    color: #474747;
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 18px;
 }
