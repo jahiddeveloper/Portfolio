@@ -216,3 +216,64 @@ nav ul li a {
     line-height: 28px;
     text-align: left;
 }
+
+/* Resume */
+
+.resume {
+    margin-top: 130px;
+}
+.resume-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+.resume-container-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 110px;
+    text-align: left;
+}
+.edu-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.edu-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.edu-description {
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #757575;
+}
+.cv {
+    padding: 20px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    margin: 0 auto;
+}
+.cv:hover {
+    background-color: white;
+    color: #FD6E0A;
+    transition-duration: 0.5s;
+}
